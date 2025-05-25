@@ -1,0 +1,30 @@
+[
+    {
+        "component_name": "External Walls",
+        "materials": ["consecrate block", "insulation"],
+        "dimensions": ["20cm", "5m"],
+        "classification": "wall",
+        "standards": null
+    },
+    {
+        "component_name": "Interior Wall",
+        "materials": ["hollow bricks", "gypsum board"],
+        "dimensions": ["18cm"],
+        "classification": "wall",
+        "standards": null
+    },
+    {
+        "component_name": "Floor",
+        "materials": ["levelling concrete", "foam"],
+        "dimensions": ["3cm", "5cm"],
+        "classification": "floor",
+        "standards": null
+    },
+    {
+        "component_name": "Ceiling",
+        "materials": ["gypsum board", "steel pipelines"],
+        "dimensions": null,
+        "classification": "ceiling",
+        "standards": null
+    }
+]

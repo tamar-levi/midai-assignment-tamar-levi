@@ -1,0 +1,14 @@
+I chose to use the transformers model because of its high accuracy in converting ready-made texts.
+I entered a clear prompt into the document that included all the instructions to convert a specification to a structured JSON file
+I made sure to include a requirement in the prompt to locate components and materials, etc.
+The document was read from an external PDF file and entered into the prompt
+
+
+
+The result obtained from the model was accurate and the JSON structure was correct.
+I adjusted the format to check that the materials were grouped and the names matched according to the requirements.
+The model was able to identify and associate them with the designated field
+
+
+Please note, I initially wrote code that used better and more correct AI, but it cost money..
+So I changed the code

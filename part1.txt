@@ -1,0 +1,17 @@
+I installed ultralytics for use with YOLO
+I defined which yolo version to work on - yolov8
+I took an image from the computer
+Of course I checked if it was there first.
+I read it with openCV
+I ran the model on this image,
+I saved the first result - the one with the highest percentages
+I saved the marked image where it should be.
+And presented it
+
+
+
+
+I used the YOLO8 model from ultralytics to run object detection on an image.
+The process was relatively easy, I only encountered a problem setting the image in the right path and in the end it worked.
+I used pre-trained weights to maintain clear inference
+And of course the output is saved in the result folder

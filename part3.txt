@@ -1,0 +1,9 @@
+I used a basic python image: 3.10-slim to get a light and up-to-date run.
+I installed all the dependencies required for the 2 parts
+Libraries for YOLO and image processing...
+Libraries for the text model
+I copied the source code and files into the container
+Run script 1 then script 2...
+
+I made sure the container contained the correct code
+
