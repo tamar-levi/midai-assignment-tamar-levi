@@ -1,6 +1,6 @@
 **MID AI – Take Home Assignment (AI Intern)**
 
-The YOLO-annotated image or video file.
+The YOLO-annotated image file.
 
 A specifications.json file generated from a document using an LLM.
 
@@ -24,7 +24,7 @@ cd midai-assignment-tamar-levi
 3. docker build -t midai-assignment .
 
 3. Run the Docker container
-4. docker run --rm -it --name midai-container midai-assignment
+4. docker run --rm -v "$(pwd):/app" midai-assignment
 
 
 ⚙️ Requirements & Tools
@@ -38,11 +38,7 @@ OpenCV
 
 YOLOv5
 
-ffmpeg
-
 Git
 
-NetFree CA Certificates for secure HTTP access
 
-All dependencies are listed in requirements.txt and are installed during Docker build.
 
