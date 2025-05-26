@@ -1,18 +1,5 @@
 **MID AI – Take Home Assignment (AI Intern)**
 
-
-midai-assignment-[your-full-name]/
-│
-├── results/
-│   ├── annotated_image_or_video.jpg/mp4
-│   └── specifications.json
-│
-├── part1.txt
-├── part2.txt
-├── part3.txt
-└── README.md
-
-
 The YOLO-annotated image or video file.
 
 A specifications.json file generated from a document using an LLM.
