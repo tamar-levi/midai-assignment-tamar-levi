@@ -14,6 +14,6 @@ COPY . .
 
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-RUN python -c "import torch; torch.hub.load('ultralytics/yolov5', 'yolov5s', trust_repo=True)"
+RUN python -c "import torch; torch.hub.load('ultralytics/yolov8', 'yolov8s', trust_repo=True)"
 
 CMD ["sh", "-c", "python yolo.py && python convert_to_json.py"]
